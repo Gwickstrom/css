@@ -1,0 +1,104 @@
+/* Regular container with 3 boxes, All static default */
+/*#container{
+  background-color: yellow;
+  display: inline-block;
+}
+#box-1, #box-2, #box-3{
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  display: inline-block;
+}
+#box-1{
+  background-color: green;
+}
+#box-2{
+  background-color: pink;
+}
+#box-3{
+  background-color: blue;
+}*/
+
+/* Absolute position box #1, comment out top and bottom */
+/*#container{
+  background-color: yellow;
+  display: inline-block;
+}
+#box-1, #box-2, #box-3{
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  display: inline-block;
+}
+#box-1{
+  background-color: green;
+  position: absolute;
+  top: 40px;
+}
+#box-2{
+  background-color: pink;
+}
+#box-3{
+  background-color: blue;
+}*/
+
+
+/* Relative positioned, box-2, comment out top and bottom */
+#container{
+  background-color: yellow;
+  display: inline-block;
+}
+#box-1, #box-2, #box-3{
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  display: inline-block;
+}
+#box-1{
+  background-color: green;
+}
+#box-2{
+  background-color: pink;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+#box-3{
+  background-color: blue;
+}
+
+/* Fixed positoning, New container2 and center-me*/
+/*#container2{
+  width:200px;
+  height:200px;
+  background: blue;
+  position:relative;
+}
+#center-me{
+  background: red;
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  right: 0;
+}*/
+/* Another way to horizontally center an element*/
+#container2{
+  width:200px;
+  height:200px;
+  background: blue;
+  position: absolute;
+  top:200px;
+}
+#center-me{
+  background: red;
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
